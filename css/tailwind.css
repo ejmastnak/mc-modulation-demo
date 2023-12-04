@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("/fonts/inter/Inter-ExtraLight.woff2?v=3.19") format("woff2"),
+    url("/fonts/inter/Inter-ExtraLight.woff?v=3.19") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/inter/Inter-Regular.woff2?v=3.19") format("woff2"),
+    url("/fonts/inter/Inter-Regular.woff?v=3.19") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/fonts/inter/Inter-SemiBold.woff2?v=3.19") format("woff2"),
+    url("/fonts/inter/Inter-SemiBold.woff?v=3.19") format("woff");
+  }
+  /* -------------------------------------------------------
+  Variable font.
+  Usage:
+
+  html { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+  }
+   */
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("/fonts/inter/Inter-roman.var.woff2?v=3.19") format("woff2");
+}
+}
