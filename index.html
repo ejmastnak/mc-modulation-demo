@@ -87,45 +87,11 @@
           </div>
         </div>
 
-        <h2 class="mt-8 text-xl xs:text-2xl text-gray-900">Current status and future work</h2>
+        <h2 class="mt-8 text-xl xs:text-2xl text-gray-900">Current status</h2>
         <p class="mt-3">
-          <strong class="font-semibold">Current status:</strong>
           Sensor hardware (the MC sensor; see the <a href="#references" class="hover:text-blue-600 hover:underline">references</a>) and a prototype real-time sound modulation algorithm have already been developed.
           The algorithm has been tested using a simulated MC signal datastream sampled at 1 kHz (the sample rate of the MC sensor) on a laptop personal computer using the ALSA audio framework and the PortAudio library for sound I/O.
         </p>
-
-        <p class="mt-3"><strong class="font-semibold">Future work:</strong></p>
-
-        <ul class="mt-2 ml-5 list-disc space-y-2">
-
-          <li>Develop integrated wearable hardware encompassing:
-          <ul class="mt-2 ml-5 list-inside space-y-1">
-              <li class="flex space-x-2">
-                <p>-</p>
-                <p>MC sensors and an analog to digital converter,</p>
-              </li>
-              <li class="flex space-x-2">
-                <p>-</p>
-                <p>an embedded signal processing and sound modulation computational unit and a digital to analog converter,</p>
-              </li>
-              <li class="flex space-x-2">
-                <p>-</p>
-                <p>a sound system (e.g. headphones, speakers) to play back the synthesized sound, and</p>
-              </li>
-              <li class="flex space-x-2">
-                <p>-</p>
-                <p>low-latency data transfer channels, ideally wireless, between the MC sensors, computational unit, and sound system. </p>
-              </li>
-            </ul>
-          </li>
-
-          <li>Develop a motor learning algorithm using MC-modulated sound as a sensory augmentation procedure.</li>
-
-          <li>Incorporate other biomechanical sensor data (e.g. from accelerometers, gyroscopes, EMG) into the modulation and motor learning algorithm.</li>
-
-          <li>Develop different user application modules (e.g. for rehabilitation, performance enhancement, etc...).</li>
-
-        </ul>
 
         <!-- Footnotes -->
         <h2 id="references" class="mt-12 text-xl xs:text-2xl text-gray-900">References</h2>
